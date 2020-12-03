@@ -21,3 +21,16 @@ hand if you're some sort of barbarian.
                        '(("\\.teal\\'" . teal-mode))
 		               auto-mode-alist))
 ```
+
+## Syntax
+
+## Completion
+
+teal-mode uses the completeion-at-point facilities, so it should
+integrate with whatever you might be using that builds on that.  For
+example, company gives:
+
+![Autocomplete of txn](company.png)
+
+## Flycheck
+![Highlighted bz error](flycheck.png)
